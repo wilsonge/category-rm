@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_CATEGORYRM</name> 
+	<author>JoomJunk</author> 
+	<creationDate>21-Apr-2015</creationDate> 
+	<copyright>Copyright (C) 2015 JoomJunk</copyright> 
+	<license>http://www.gnu.org/licenses/gpl-3.0.html</license> 
+	<authorEmail>admin@joomjunk.co.uk</authorEmail> 
+	<authorUrl>http://www.joomjunk.co.uk</authorUrl> 
+	<version>1.0.0</version> 
+	<description>PLG_CONTENT_CATEGORYRM_DESC</description>
+
+	<files>
+		<filename plugin="categoryrm">categoryrm.php</filename>
+	</files>
+ 
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_categoryrm.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_categoryrm.sys.ini</language>
+	</languages>
+ 
+	<config />
+</extension>
