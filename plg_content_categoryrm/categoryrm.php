@@ -39,7 +39,7 @@ class PlgContentCategoryrm extends JPlugin
 		}
 		else
 		{
-			list ($row->introtext, $row->fulltext) = preg_split($pattern, $array['articletext'], 2);
+			list ($row->introtext, $row->fulltext) = preg_split($pattern, $row->description, 2);
 		}
 
 		return true;
